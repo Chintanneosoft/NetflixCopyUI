@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PotraitCell" customModule="NetflixCopy" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="PotraitCell" selectionStyle="default" indentationWidth="10" rowHeight="127" id="9c4-bh-64H" userLabel="Potrait Cell" customClass="PotraitCell" customModule="NetflixCopy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9c4-bh-64H" id="SV4-Ze-bDH">
+                <rect key="frame" x="0.0" y="0.0" width="415" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AlU-OY-YZ1">
+                        <rect key="frame" x="0.0" y="0.0" width="415" height="127"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="hEi-JX-p5f">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AlU-OY-YZ1" firstAttribute="leading" secondItem="SV4-Ze-bDH" secondAttribute="leading" id="4QO-MP-10n"/>
+                    <constraint firstAttribute="trailing" secondItem="AlU-OY-YZ1" secondAttribute="trailing" id="H7L-NM-PPo"/>
+                    <constraint firstItem="AlU-OY-YZ1" firstAttribute="top" secondItem="SV4-Ze-bDH" secondAttribute="top" id="h8W-lK-cxo"/>
+                    <constraint firstAttribute="bottom" secondItem="AlU-OY-YZ1" secondAttribute="bottom" id="vNg-88-Wh9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="gol-ra-OF2"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="collectionView" destination="AlU-OY-YZ1" id="R2Y-p5-DP4"/>
+            </connections>
+            <point key="canvasLocation" x="127.48091603053435" y="48.943661971830991"/>
+        </tableViewCell>
+    </objects>
+</document>

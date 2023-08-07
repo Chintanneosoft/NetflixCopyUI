@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A4FE7082A80C4490007576B /* PotraitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4FE7072A80C4490007576B /* PotraitCell.xib */; };
+		4A555CCD2A7CC05C006562CD /* LandscapeCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A555CCB2A7CC05C006562CD /* LandscapeCarouselCell.swift */; };
+		4A555CCE2A7CC05C006562CD /* LandscapeCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A555CCC2A7CC05C006562CD /* LandscapeCarouselCell.xib */; };
+		4A555CD12A7CC437006562CD /* PotraitCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A555CCF2A7CC437006562CD /* PotraitCarouselCell.swift */; };
+		4A555CD22A7CC437006562CD /* PotraitCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A555CD02A7CC437006562CD /* PotraitCarouselCell.xib */; };
+		4A555CD52A7CC6B1006562CD /* LandscapeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A555CD32A7CC6B1006562CD /* LandscapeCell.swift */; };
+		4A555CD62A7CC6B1006562CD /* LandscapeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A555CD42A7CC6B1006562CD /* LandscapeCell.xib */; };
+		4A738BC22A80DCE6007BF8CD /* HeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A738BC12A80DCE6007BF8CD /* HeaderViewCell.xib */; };
+		4A975D302A7D24D600B23C28 /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A975D2E2A7D24D600B23C28 /* HeaderViewCell.swift */; };
+		4A975D332A7D283B00B23C28 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A975D322A7D283B00B23C28 /* DetailsViewController.swift */; };
+		4AA6A48F2A7CE2DC0081C4F2 /* PotraitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A48D2A7CE2DC0081C4F2 /* PotraitCell.swift */; };
 		4AD1A1AA2A7BE59300CB8DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A1A92A7BE59300CB8DB0 /* AppDelegate.swift */; };
 		4AD1A1AC2A7BE59300CB8DB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A1AB2A7BE59300CB8DB0 /* SceneDelegate.swift */; };
 		4AD1A1AE2A7BE59300CB8DB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A1AD2A7BE59300CB8DB0 /* ViewController.swift */; };
@@ -36,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A4FE7072A80C4490007576B /* PotraitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PotraitCell.xib; sourceTree = "<group>"; };
+		4A555CCB2A7CC05C006562CD /* LandscapeCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeCarouselCell.swift; sourceTree = "<group>"; };
+		4A555CCC2A7CC05C006562CD /* LandscapeCarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandscapeCarouselCell.xib; sourceTree = "<group>"; };
+		4A555CCF2A7CC437006562CD /* PotraitCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotraitCarouselCell.swift; sourceTree = "<group>"; };
+		4A555CD02A7CC437006562CD /* PotraitCarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PotraitCarouselCell.xib; sourceTree = "<group>"; };
+		4A555CD32A7CC6B1006562CD /* LandscapeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeCell.swift; sourceTree = "<group>"; };
+		4A555CD42A7CC6B1006562CD /* LandscapeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandscapeCell.xib; sourceTree = "<group>"; };
+		4A738BC12A80DCE6007BF8CD /* HeaderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderViewCell.xib; sourceTree = "<group>"; };
+		4A975D2E2A7D24D600B23C28 /* HeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
+		4A975D322A7D283B00B23C28 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		4AA6A48D2A7CE2DC0081C4F2 /* PotraitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotraitCell.swift; sourceTree = "<group>"; };
 		4AD1A1A62A7BE59300CB8DB0 /* NetflixCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD1A1A92A7BE59300CB8DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD1A1AB2A7BE59300CB8DB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +98,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A4FE7092A80D02E0007576B /* Application Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD1A1A92A7BE59300CB8DB0 /* AppDelegate.swift */,
+				4AD1A1AB2A7BE59300CB8DB0 /* SceneDelegate.swift */,
+			);
+			path = "Application Files";
+			sourceTree = "<group>";
+		};
+		4A4FE70A2A80D04E0007576B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4AD1A1B42A7BE59700CB8DB0 /* LaunchScreen.storyboard */,
+				4AD1A1AF2A7BE59300CB8DB0 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4A4FE70B2A80D0700007576B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AD1A1AD2A7BE59300CB8DB0 /* ViewController.swift */,
+				4A975D322A7D283B00B23C28 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4A4FE70C2A80D0790007576B /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				4A555CCF2A7CC437006562CD /* PotraitCarouselCell.swift */,
+				4A555CD02A7CC437006562CD /* PotraitCarouselCell.xib */,
+				4A555CCB2A7CC05C006562CD /* LandscapeCarouselCell.swift */,
+				4A555CCC2A7CC05C006562CD /* LandscapeCarouselCell.xib */,
+				4A975D2E2A7D24D600B23C28 /* HeaderViewCell.swift */,
+				4A738BC12A80DCE6007BF8CD /* HeaderViewCell.xib */,
+				4AA6A48D2A7CE2DC0081C4F2 /* PotraitCell.swift */,
+				4A4FE7072A80C4490007576B /* PotraitCell.xib */,
+				4A555CD32A7CC6B1006562CD /* LandscapeCell.swift */,
+				4A555CD42A7CC6B1006562CD /* LandscapeCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 		4AD1A19D2A7BE59300CB8DB0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +165,11 @@
 		4AD1A1A82A7BE59300CB8DB0 /* NetflixCopy */ = {
 			isa = PBXGroup;
 			children = (
-				4AD1A1A92A7BE59300CB8DB0 /* AppDelegate.swift */,
-				4AD1A1AB2A7BE59300CB8DB0 /* SceneDelegate.swift */,
-				4AD1A1AD2A7BE59300CB8DB0 /* ViewController.swift */,
-				4AD1A1AF2A7BE59300CB8DB0 /* Main.storyboard */,
+				4A4FE7092A80D02E0007576B /* Application Files */,
+				4A4FE70A2A80D04E0007576B /* Storyboard */,
+				4A4FE70C2A80D0790007576B /* Xibs */,
+				4A4FE70B2A80D0700007576B /* ViewControllers */,
 				4AD1A1B22A7BE59700CB8DB0 /* Assets.xcassets */,
-				4AD1A1B42A7BE59700CB8DB0 /* LaunchScreen.storyboard */,
 				4AD1A1B72A7BE59700CB8DB0 /* Info.plist */,
 			);
 			path = NetflixCopy;
@@ -233,7 +298,12 @@
 			files = (
 				4AD1A1B62A7BE59700CB8DB0 /* LaunchScreen.storyboard in Resources */,
 				4AD1A1B32A7BE59700CB8DB0 /* Assets.xcassets in Resources */,
+				4A4FE7082A80C4490007576B /* PotraitCell.xib in Resources */,
 				4AD1A1B12A7BE59300CB8DB0 /* Main.storyboard in Resources */,
+				4A555CD22A7CC437006562CD /* PotraitCarouselCell.xib in Resources */,
+				4A555CCE2A7CC05C006562CD /* LandscapeCarouselCell.xib in Resources */,
+				4A555CD62A7CC6B1006562CD /* LandscapeCell.xib in Resources */,
+				4A738BC22A80DCE6007BF8CD /* HeaderViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +330,13 @@
 			files = (
 				4AD1A1AE2A7BE59300CB8DB0 /* ViewController.swift in Sources */,
 				4AD1A1AA2A7BE59300CB8DB0 /* AppDelegate.swift in Sources */,
+				4A975D332A7D283B00B23C28 /* DetailsViewController.swift in Sources */,
+				4AA6A48F2A7CE2DC0081C4F2 /* PotraitCell.swift in Sources */,
+				4A975D302A7D24D600B23C28 /* HeaderViewCell.swift in Sources */,
+				4A555CD12A7CC437006562CD /* PotraitCarouselCell.swift in Sources */,
 				4AD1A1AC2A7BE59300CB8DB0 /* SceneDelegate.swift in Sources */,
+				4A555CCD2A7CC05C006562CD /* LandscapeCarouselCell.swift in Sources */,
+				4A555CD52A7CC6B1006562CD /* LandscapeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
